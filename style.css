@@ -1,0 +1,71 @@
+body {
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    background-color: #1c1c44;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+.play {
+    margin-top: 2px;
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    color: #999999;
+}
+
+.play:hover {
+    cursor: pointer;
+}
+
+.seek-bar {
+    height: 15px;
+    background-color: black;
+    margin: 5px;
+    display: flex;
+    width: 90%;
+}
+
+.slider {
+    background-color: #fff;
+    height: 15px;
+}
+
+.time, .max-time {
+    color: #fff;
+    padding-top: 3px;
+}
+
+.duration {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.playlist-box {
+    display: flex;
+}
+
+.playlist {
+    background-color: rgba(28, 28, 68, 0.71);
+    color: #fff;
+}
+
+.playlist > li:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    padding: 10px 20px;
+}

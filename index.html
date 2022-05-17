@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Audio Player with seek bar</title>
+</head>
+<body>
+<main>
+<div class="player">
+    <span class="play">▶️</span>
+    <div class="duration">
+        <span class="time">0:00</span>
+        <span class="seek-bar"><span class="slider"></span></span>
+        <span class="max-time">0:00</span>
+    </div>
+</div>
+<div class="playlist-box">
+    <ul class="playlist">
+        <li class="track" data-mp3="https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/1Z6tg6Snpkq1kh58AzxoijCohMY7u4OnPteGATID.mp3">track 1</li>
+        <li class="track" data-mp3="https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/rEtO7ITH3Le9psNGTbCQjB99EOEjUZThyYGiRNVv.mp3">track 2</li>
+        <li class="track" data-mp3="https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/yk5tSrkBMMV1YCAE5n7qZRWiysbPAXImHjRSL1of.mp3">track 3</li>
+    </ul>
+</div>
+</main>
+<script src="player.js"></script>
+</body>
+</html>
